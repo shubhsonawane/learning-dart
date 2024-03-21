@@ -22,4 +22,58 @@ void main() {
   // bool is_completed = false;
   // var qty = 100;
   // print(qty);
+
+  // # operators
+  // ## Arithmetic operators
+  // var a = 10;
+  // var b = 20;
+  // var c = 50;
+  // var d = 3;
+
+  // print(a + b);
+  // print(c - a);
+  // print(c * a);
+  // print(a / d);
+  // print(a ~/ d);
+  // print(a % d);
+
+// ### Prefix and PostFix Increment and Decrement operators
+  // var i = 3;
+  // print(++i);
+  // print(--i);
+  // print(i);
+
+  // #### Equality and Relational operators
+  // var a = 100;
+  // var b = 200;
+  // print(a == b);
+  // print(a != b);
+  // print(a > b);
+  // print(a < b);
+  // print(a >= b);
+  // print(a <= b);
+
+  // ##### Logical operators
+  //  true && true = true
+  // true && false = false
+  //  false && true = false
+  //  false && false = false
+
+  // true || true = true
+  // true || false = true
+  // false || true = true
+  // false || false = false
+
+  // ###### Type Test operators
+  // var name = "Sonam";
+  // var num = 10;
+  // print(name is String);
+  // print(name is! int);
+
+  // ####### Assignment operators
+  // var n = 10;
+  // n += 5; // n = n + 5
+  // n -= 5; // n = n - 5
+  // n *= 5; //  n = n * 5
+  // print(n);
 }
