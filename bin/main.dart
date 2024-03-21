@@ -76,4 +76,38 @@ void main() {
   // n -= 5; // n = n - 5
   // n *= 5; //  n = n * 5
   // print(n);
+
+  // # Conditional Expression
+  // var is_login = true;
+  // var user = is_login ? "sonam" : "Guest";
+  // print(user);
+
+  // var name = "shubham";
+  // var name1 = null;
+  // var user = name ?? 'guest';
+  // var user2 = name1 ?? 'guest';
+  // print(user);
+  // print(user2);
+
+  // ### String
+  // String name = "shubham";
+  // var name1 = "shubham";
+  // print(name);
+  // print(name1.runtimeType);
+  // var s1 = 'it\'s a language';
+  // var s2 = "it's a language";
+  // print(s1);
+  // print(s2);
+
+  // var mstr = '''this is
+  // multiple line
+  // string''';
+  // print(mstr);
+
+  // ## Expression inside String
+  // var name = 'rahul';
+  // print('${name}');
+  // print('$name');
+  // print('$name good night');
+  // print('${name.toUpperCase()}');
 }
