@@ -110,4 +110,31 @@ void main() {
   // print('$name');
   // print('$name good night');
   // print('${name.toUpperCase()}');
+
+  //## String Concatenation
+  // print("shubham" + " sonawane");
+  // var s1 = "hello";
+  // var s2 = " shubham";
+  // print(s1 + s2);
+
+  // ### Raw String
+  // var s = r"In a row string, not even \n gets special treatment";
+  // print(s);
+
+  // String Properties and Methods
+  // var name = "Shubham";
+  // print(name.length);
+  // print(name.isEmpty);
+  // print(name.isNotEmpty);
+  // print(name.toUpperCase());
+  // print(name.toLowerCase());
+  // print(name.contains('m'));
+  // print(name.padLeft(10));
+  // print(name.padRight(10));
+  var str1 = "     hello     ";
+  // print(str1.trim());  // clear white space
+  print(str1.trimLeft());
+  print(str1.trimRight());
+  var str2 = "hello dart";
+  print(str2.split(" "));
 }
