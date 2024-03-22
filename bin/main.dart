@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 void main() {
   // print("hello dart");
 
@@ -173,7 +175,7 @@ void main() {
   // print(student.runtimeType);
 
   //## List Properties and Methods
-  // var student = ['shubham', 'sakshi', 'prerna'];
+  var student = ['shubham', 'sakshi', 'prerna'];
   // print(student);
   // print(student.length);
   // print(student.isEmpty);
@@ -181,4 +183,43 @@ void main() {
   // print(student.reversed);
   // print(student.first);
   // print(student.last);
+  // student.remove('shubham');
+  // print(student);
+  // student.removeAt(1);
+  // student.removeLast();
+  // print(student);
+
+  // ## Set
+  // var lst = [10, 10, 20, 40, 20];
+  // var st1 = {'sonam', 'rahul', 'sumit'};
+  // print(st1);
+  // print(st1.runtimeType);
+  // var st2 = {1, 2, 'sonam', 'rahul', 'sumit'};
+  // print(st2);
+  // print(st2.runtimeType);
+  // var st3 = <String>{'sonam', 'rahul', 'sumit'};
+  // print(st3);
+  // print(st3.runtimeType);
+  // Set<String> st4 = {'sonam', 'rahul', 'sumit'};
+  // print(st4);
+  // print(st4.runtimeType);
+
+  // ### Empty Set
+  // var st5 = <String>{};
+  // print(st5);
+
+  // // var st6 = Set(); // Its Map not Set
+  // var st6 = {}; // Its Map not Set
+  // print(st6.runtimeType);
+
+  // ### Add Item to Empty Set
+  // var p = <String>{};
+  // p.add('shubham');
+  // print(p);
+  // print(p.runtimeType);
+  //####################### Set No dublicate value will be considered
+
+
+  // ### Map
+  
 }
