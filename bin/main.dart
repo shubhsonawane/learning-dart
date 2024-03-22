@@ -131,10 +131,54 @@ void main() {
   // print(name.contains('m'));
   // print(name.padLeft(10));
   // print(name.padRight(10));
-  var str1 = "     hello     ";
-  // print(str1.trim());  // clear white space
-  print(str1.trimLeft());
-  print(str1.trimRight());
-  var str2 = "hello dart";
-  print(str2.split(" "));
+  // var str1 = "     hello     ";
+  // // print(str1.trim());  // clear white space
+  // print(str1.trimLeft());
+  // print(str1.trimRight());
+  // var str2 = "hello dart";
+  // print(str2.split(" "));
+
+  //### List
+  // ## fixed length List
+
+  //#############################
+  //     PENDING 2024
+  //#############################
+
+  //## Growable List
+  // var lst = ['shubham', 'prerna'];
+  // print(lst);
+  // print(lst.runtimeType);
+  // List<String> name = ['shubham', 'sakshi'];
+  // var name1 = <String>['shubham', 'sakshi'];
+
+  // Access List Element
+  // var students = <String>['shubham', 'sakshi', 'prerna'];
+  // print(students[0]);
+  // print(students[1]);
+  // print(students[2]);
+
+  // ## Insert List into Another List
+  // Spread operator
+  // var women = ['sonam', 'rani', 'shweta'];
+  // var men = ['shubham', 'rahul'];
+  // var gabbarWithMen = ["Gabbar", ...men];
+  // print(gabbarWithMen);
+
+  // ## Empty List and add() method
+  // [] Constructor
+  // var student = [];
+  // student.add('shubham');
+  // print(student);
+  // print(student.runtimeType);
+
+  //## List Properties and Methods
+  // var student = ['shubham', 'sakshi', 'prerna'];
+  // print(student);
+  // print(student.length);
+  // print(student.isEmpty);
+  // print(student.isNotEmpty);
+  // print(student.reversed);
+  // print(student.first);
+  // print(student.last);
 }
