@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 void main() {
   // print("hello dart");
 
@@ -175,7 +173,7 @@ void main() {
   // print(student.runtimeType);
 
   //## List Properties and Methods
-  var student = ['shubham', 'sakshi', 'prerna'];
+  // var student = ['shubham', 'sakshi', 'prerna'];
   // print(student);
   // print(student.length);
   // print(student.isEmpty);
@@ -219,7 +217,53 @@ void main() {
   // print(p.runtimeType);
   //####################### Set No dublicate value will be considered
 
-
   // ### Map
-  
+  // ##### Map Literal
+  // var address = {'name': "shubham", 'city': 'nashik', 'state': 'maharastra'};
+  // Map<String, String> address = {
+  //   'name': "shubham",
+  //   'city': 'nashik',
+  //   'state': 'maharastra'
+  // };
+  // print(address);
+  // print(address.runtimeType);
+  // var product = {10: "mobile", 20: "laptop", 30: 'keybaord'};
+  // print(product);
+  // print(product.runtimeType);
+
+  // ### Empty Map
+  // Map() Constructor
+  // var address = Map();
+  // print(address);
+  // print(address.runtimeType);
+
+  // Map<String, String> address1 = Map();
+  // print(address1);
+  // print(address1.runtimeType);
+
+  // var address2 = {};
+  // print(address2);
+  // print(address2.runtimeType);
+
+  // ###### Add item to Map
+  // var address = {};
+  // address['name'] = "shubham";
+  // address['city'] = "nashik";
+  // address['state'] = "maharastra";
+  // print(address);
+  // print(address.runtimeType);
+
+  // ## Access Map Elements
+  // var address = {'name': "shubham", 'city': 'nashik', 'state': 'maharastra'};
+  // print(address['name']);
+
+  // ### Map Properties and Methods
+  // var address = {'name': "shubham", 'city': 'nashik', 'state': 'maharastra'};
+  // print(address.length);
+  // print(address.isEmpty);
+  // print(address.isNotEmpty);
+  // print(address.keys);
+  // print(address.values);
+  // print(address.containsKey('name'));
+  // print(address.containsValue('shubham'));
 }
