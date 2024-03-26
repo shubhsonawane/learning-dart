@@ -293,5 +293,68 @@ void main() {
   //   print('Invalid value');
   // }
 
+  // ## Loop
+  // ##### for Loop
+  // for(initial_value; condition; increment/decrement){}
+
+  // var student = ['shubham', 'sandip', 'prerna', 'sakshi'];
+  // for (var i = 0; i < student.length; i++) {
+  //   print(student[i]);
+  // }
+
+  // ###### while Loop
+  // var n = 1;
+  // while (n <= 5) {
+  //   print("number $n");
+  //   n++;
+  // }
+
+  // var student = ['shubham', 'sandip', 'prerna', 'sakshi'];
+  // var i = 0;
+  // while (i < student.length) {
+  //   print(student[i]);
+  //   i++;
+  // }
+
+  // #### do-while Loop
+  // var n = 1;
+  // do {
+  //   print("number $n");
+  //   n++;
+  // } while (n <= 3);
+
+  // ### for-in loop with List
+  // var student = ['shubham', 'sandip', 'prerna', 'sakshi'];
+  // for (var stu in student) {
+  //   print(stu);
+  // }
+
+  // ### for-in loop with Set
+  // var student = {'shubham', 'sandip', 'prerna', 'sakshi'};
+  // for (var stu in student) {
+  //   print(stu);
+  // }
+  // ### for-in loop with Map
+  // var address = {"name": "shubham", "city": "nashik"};
+  // for (var key in address.keys) {
+  //   print(key);
+  // }
+
+  //### forEach Loop with List
+  // var student = ['shubham', 'sandip', 'prerna', 'sakshi'];
+  // student.forEach((value)=> print(value));
+
+  // ###  forEach Loop with Set
+  // var student = {'shubham', 'sandip', 'prerna', 'sakshi'};
+  // student.forEach((value) => print(value));
+
+  // ###  forEach Loop with Map
+  // var address = {"name": "shubham", "city": "nashik"};
+  // address.forEach((key, value) => print('$key = $value'));
+
+  // var student = ['shubham', 'sandip', 'prerna', 'sakshi'];
+  // student.asMap().forEach((i, value) => print('$i = $value'));
+
+  // #### break and continue
   
 }
