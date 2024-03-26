@@ -365,17 +365,36 @@ void main() {
   //   }
   //   print("Data Fetching.... $n");
   // }
-  var is_fetching = true;
-  var n = 0;
-  while (is_fetching) {
-    n++;
-    if (n == 10) {
-      break;
-    }
+  // var is_fetching = true;
+  // var n = 0;
+  // while (is_fetching) {
+  //   n++;
+  //   if (n == 10) {
+  //     break;
+  //   }
 
-    if (n == 5) {
-      continue;
-    }
-    print("Data Fetching.... $n");
+  //   if (n == 5) {
+  //     continue;
+  //   }
+  //   print("Data Fetching.... $n");
+  // }
+
+  // ##### switch and case
+  var command = "PENDING";
+  switch (command) {
+    case "CLOSED":
+      print('Complaint Ticket Closed');
+      break;
+    case "PENDING":
+      print("Complaint Ticket Pending");
+      break;
+    case "DENIED":
+      print("Complaint Ticket Denied");
+      break;
+    case "OPEN":
+      print("Complaint Ticket Open");
+      break;
+    default:
+      print("Invalid Complaint Ticket");
   }
 }
